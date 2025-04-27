@@ -18,13 +18,18 @@ MONAD_MAKE :
 	cp SUB_CONFIGURE $(CURRENT_DIR)/monadlib/CONFIGURE
 	cd monadlib && $(MAKE) depend && $(MAKE) all -j5
 
-all : echo_dir SET_MAKE FIX_MAKE MONAD_MAKE
+EXAMPLE_MAKE : 
+	cp SUB_CONFIGURE $(CURRENT_DIR)/examples/CONFIGURE
+	cd examples && $(MAKE) depend && $(MAKE) all -j5
+
+all : echo_dir SET_MAKE FIX_MAKE MONAD_MAKE EXAMPLE_MAKE
 	@echo "All subdirectories have been built."
 
 clean:
 	cd sets && $(MAKE) clean
 	cd fixedpoints && $(MAKE) clean
 	cd monadlib && $(MAKE) clean
+	cd examples && $(MAKE) clean
 
 .PHONY: clean depend
 .DEFAULT_GOAL := all
