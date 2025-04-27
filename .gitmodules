@@ -1,0 +1,9 @@
+[submodule "sets"]
+	path = sets
+	url = git@bitbucket.org:qinxiang-SJTU/sets.git
+[submodule "fixedpoints"]
+	path = fixedpoints
+	url = git@bitbucket.org:qinxiang-SJTU/fixedpoints.git
+[submodule "monadlib"]
+	path = monadlib
+	url = git@bitbucket.org:Wushushu/monadlib.git
