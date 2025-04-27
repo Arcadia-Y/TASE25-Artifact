@@ -3,7 +3,7 @@ Require Import Coq.Arith.Arith.
 Require Import Coq.micromega.Psatz.
 Require Import Coq.Classes.Morphisms.
 Require Import Coq.Lists.List.
-From SetMonad Require Import Monad SetMonad SetHoare.
+From SetMonad Require Import Monad SetBasic SetHoare.
 Require Import Examples.ListLib.
 Import SetsNotation
        SetMonad

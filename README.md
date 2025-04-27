@@ -5,19 +5,19 @@ This is the artifact of the TASE25 paper "A Formal Framework for Naturally Speci
 Directories/files denoted with `*` are not within the scope of this paper.
 ```
 .
-├── sets*         # Dependency: Library for Set Theory
-├── fixedpoints*  # Dependency: Library for Order Theory and Fixed Points
+├── sets*         # Dependency: Library for set theory
+├── fixedpoints*  # Dependency: Library for order theory and fixed points
 ├── monadlib      # Core Monad Library
-│   ├── set_monad          # Set Monad
+│   ├── set_monad      # Set Monad
 │   │   ├── Monad.v        # Monad definitions and notations
-│   │   ├── SetMonad.v     # Constructors and properties
+│   │   ├── SetBasic.v     # Constructors and properties
 │   │   └── SetHoare.v     # Hoare logic and tactics
 │   ├── state_rel_monad    # State Relation Monad
-│   │   ├── StateRelMonad.v    # Constructors and properties
+│   │   ├── StateRelBasic.v    # Constructors and properties
 │   │   ├── StateRelHoare.v    # Hoare logic and tactics
 │   │   └── safeexec_lib.v*    # library for relational Hoare Logic
 │   └── monad_err          # Monad with Error
-│       ├── MonadErr.v         # Basic constructors and properties
+│       ├── MonadErrBasic.v    # Basic constructors and properties
 │       ├── MonadErrLoop.v     # Loop constructors and properties
 │       ├── MonadErrHoare.v    # Hoare logic and tactics
 │       └── monadsafe_lib.v*   # library for relational Hoare Logic
@@ -27,8 +27,6 @@ Directories/files denoted with `*` are not within the scope of this paper.
     ├── Listlib.v*    # List lemmas for the KMP proof
     └── KMP.v         # Definition of the KMP algorithm in the Monad with Error
 ```
-
-
 
 ## How to Compile
 Coq version: 8.15.0

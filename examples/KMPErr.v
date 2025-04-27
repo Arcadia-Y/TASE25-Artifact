@@ -6,7 +6,7 @@ Require Import Coq.Classes.RelationClasses.
 Require Import Coq.micromega.Psatz.
 Require Import Coq.Sorting.Permutation.
 From SetsClass Require Import SetsClass.
-From MonadErr Require Import MonadErr MonadErrLoop MonadErrHoare.
+From MonadErr Require Import MonadErrBasic MonadErrLoop MonadErrHoare.
 From SetMonad Require Import Monad.
 
 Local Open Scope Z_scope.

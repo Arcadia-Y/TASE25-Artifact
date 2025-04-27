@@ -5,7 +5,7 @@ Require Import Coq.Classes.Morphisms.
 Require Import Coq.Lists.List.
 Require Import Coq.Logic.Classical_Prop.
 From SetMonad Require Import Monad.
-From StateRelMonad Require Import StateRelMonad StateRelHoare.
+From StateRelMonad Require Import StateRelBasic StateRelHoare.
 Import SetsNotation.
 Import MonadNotation.
 Local Open Scope sets.
