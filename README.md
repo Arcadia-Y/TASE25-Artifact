@@ -29,7 +29,7 @@ Directories/files denoted with `*` are not within the scope of this paper.
 ```
 
 ## How to Compile
-Coq version: 8.15.0
+Coq version: 8.15.2
 
 Before compiling, you shall first fetch git submodules as follows:
 ```
