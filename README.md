@@ -25,7 +25,7 @@ Directories/files denoted with `*` are not within the scope of this paper.
     ├── DFS.v         # DFS example in State Relation Monad
     ├── KMP.v         # Two-stage proof for the KMP algorithm in Set Monad
     ├── Listlib.v*    # List lemmas for the KMP proof
-    └── KMP.v         # Definition of the KMP algorithm in the Monad with Error
+    └── KMPErr.v      # Definition of the KMP algorithm in the Monad with Error
 ```
 
 ## How to Compile
