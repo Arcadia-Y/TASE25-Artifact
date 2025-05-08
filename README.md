@@ -1,5 +1,5 @@
 # TASE25-Artifact
-This is the artifact of the TASE25 paper "A Formal Framework for Naturally Specifying and Verifying Sequential Algorithms".
+This is the artifact of the TASE25 paper ["A Formal Framework for Naturally Specifying and Verifying Sequential Algorithms"](https://arxiv.org/abs/2504.19852).
 
 ## Code Structure
 Directories/files denoted with `*` are not within the scope of this paper.
