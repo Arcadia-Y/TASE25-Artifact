@@ -1,6 +1,7 @@
 [submodule "sets"]
 	path = sets
 	url = git@bitbucket.org:qinxiang-SJTU/sets.git
+	branch = sets-8.15
 [submodule "fixedpoints"]
 	path = fixedpoints
 	url = git@bitbucket.org:qinxiang-SJTU/fixedpoints.git

@@ -4,7 +4,6 @@ Require Import Coq.micromega.Psatz.
 Require Import Coq.Classes.Morphisms.
 Require Import Coq.Lists.List.
 Require Import Coq.Logic.Classical_Prop.
-From SetMonad Require Import Monad.
 From StateRelMonad Require Import StateRelBasic StateRelHoare.
 Import SetsNotation.
 Import MonadNotation.
@@ -520,6 +519,7 @@ Proof.
   - destruct H.
     apply H; auto. 
   - apply NNPP; intros Hu.
+    sets_unfold in H; sets_unfold in Hu; sets_unfold.
     eapply pair_contra; sets_unfold; eauto; tauto.
 Qed.
 
